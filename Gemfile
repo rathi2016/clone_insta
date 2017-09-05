@@ -21,7 +21,7 @@ gem 'active_model_serializers'
 gem 'carrierwave', '~> 0.11.2'
 gem 'will_paginate', '~> 3.1'
 gem 'redis', '~> 3.0'
-
+gem 'bcrypt', '~> 3.1.7' 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
